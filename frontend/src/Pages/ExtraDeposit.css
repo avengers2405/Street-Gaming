@@ -1,0 +1,143 @@
+
+  
+  .box3 {
+   
+    justify-content: center;
+    border: 1px solid rgb(26, 21, 21);
+    
+    width: 450px;
+    border-radius: 10px;
+    margin: auto;
+   
+  }
+  
+  .head2 {
+    height: 80px;
+    background-color: rgb(251, 60, 60);
+    color: whitesmoke;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+  }
+  
+  .head2-text,
+  .head2-p {
+    margin-top: 10px;
+  }
+  
+  .container-cards {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    max-height: 400px;
+   
+    position: relative;
+  }
+  
+  .card2 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(248, 240, 240);
+    width: 430px;
+    margin: auto;
+    border-radius: 5px;
+    row-gap: 10px;
+    margin-top: 12px;
+  }
+  
+  .card2-div1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 5px;
+  }
+  
+  .card2-p {
+    margin-left: 12px;
+    margin-right: 12px;
+    color: rgb(148, 147, 147);
+  }
+  
+  .card2-div1-p {
+    background-color: rgb(210, 208, 208);
+    width: 250px;
+    border-radius: 40px;
+    text-align: center;
+  }
+  
+  .card2-div1-btn {
+    background: none;
+    border: 1px solid rgb(251, 60, 60);
+    width: 100px;
+    border-radius: 5px;
+    color: rgb(251, 60, 60);
+  }
+  
+  .card2-footer {
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 40px;
+  }
+  
+  .card2-footer-p {
+    color: rgb(148, 147, 147);
+    font-size: 18px;
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 20px;
+  }
+  
+  .card2-footer-btn {
+    background-color: rgb(251, 60, 60);
+    color: white;
+    text-align: center;
+    width: 180px;
+    border-radius: 20px;
+    border: 1px solid rgb(251, 60, 60);
+    font-weight: bolder;
+    height: 25px;
+    margin-top: 8px;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(22, 17, 17, 0.2);
+  }
+  
+ modal-content {
+    
+    margin: 10% auto;
+    padding: 20px;
+    
+    
+  }
+  
+  .close {
+    color: #252424;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .close:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .show {
+    display: block;
+  }
+  

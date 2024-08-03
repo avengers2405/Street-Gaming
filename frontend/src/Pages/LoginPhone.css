@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main-container{
+    width: 414px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.box2{
+    display: flex;
+    margin-top: 5px;
+    color: rgb(54, 51, 51);
+}
+
+.box2 .phone{
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    color: rgb(251, 60, 60);
+}
+
+.box2 .phone hr{
+    border: 0.5px solid rgb(251, 60, 60);
+    margin-top: 8px;
+}
+
+.box2 .email{
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    color: rgb(54, 51, 51);
+}
+
+.box2 .email hr{
+    border: 0.5px solid rgb(138, 133, 133);
+    margin-top: 8px;
+    color: rgb(251, 60, 60);
+}
+
+.b2 .f2{
+    width: 85%;
+    /* border: 1px solid black; */
+    margin-left: 27px;
+}
+
+.icon{
+    width: 20px;
+}
+
+.b2 .f2 .num{
+    margin-top: 20px;
+    display: flex;
+}
+
+.b2 .f2 .ic{
+    color: rgb(251, 60, 60);
+}
+
+.b2 .f2 .num-para{
+    margin-left: 5px;
+}
+
+.b2 .f2 .email-input{
+    width: 315px;
+    margin-top: 10px;
+    border-radius: 8px;
+    height: 30px;
+    border: none;
+    background-color: rgb(225, 222, 222);
+    text-align: center;
+}
+
+.b2 .f2 .email-input:hover{
+    border: 2px solid rgb(251, 60, 60);
+}
+
+/* .b .f1 .num .check {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; 
+    border: 2px solid #999; 
+    outline: none; 
+} */
+
+.b2 .f2 .btn1{
+    margin-top: 30px;
+    width: 270px;
+    border-radius: 20px;
+    border: none;  
+    height: 30px;
+    background-color: rgb(116, 113, 113);
+    margin-left: 28px;
+    color: white;
+}
+
+.b2 .f2 .icns{
+    display: flex;
+    margin-top: 30px;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.b2 .f2 .icns .ic2{
+    font-size: 30px;
+    color: rgb(251, 60, 60);
+}
+

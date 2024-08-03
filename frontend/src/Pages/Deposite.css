@@ -1,0 +1,124 @@
+.navbar {
+    
+   
+    padding: 10px;
+    font-size: 25px;
+    color: rgb(27, 24, 24);
+    
+  }
+ 
+ 
+
+  .p{
+    color: white;
+
+  }
+  .options
+  {
+      padding: 15px;
+      margin:25px;
+      border-radius: 15px;
+      height: 400px;
+      background-color: #ffffff;
+      box-shadow: 4px 4px 4px rgba(0.2, 0.2, 0.2, 0.2); 
+      
+     
+      
+  }
+
+  .amount{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+  }
+  
+  .rupee{
+    width: 28%;
+    height: 40px;
+    border: 2px solid rgb(207, 201, 201);
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: rgb(48, 44, 44);
+    cursor: pointer;
+    
+  }
+  .rupee:hover{
+    background-color: rgb(238, 46, 46);
+    color:white;
+    
+  }
+  .whole{
+    justify-content: center;
+  }
+  
+  .large-input {
+    padding: 15px;
+    font-size: 25px;
+    width: 90%;
+    
+    height: 50px;
+    color: red;
+    margin: 15px;
+    border: 0px solid #ccc;
+    border-radius: 50px; /* Rounded border radius */
+    text-align: center; /* Center text */
+   
+    background-color: rgb(228, 220, 220); /* Include padding and border in width */
+  }
+  
+  .large-input::placeholder {
+    font-size: 20px; /* Change the font size of the placeholder text */
+  }
+  
+  .deposit-button {
+    padding: 15px;
+    font-size: 25px;
+    width: 90%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    color: rgb(126, 122, 122);
+    border: 0px solid #ccc;
+    border-radius: 50px; /* Rounded border radius */
+    align-items: center; /* Center text */
+    
+    background-color: rgb(252, 96, 96); 
+  }
+
+  .instructions{
+      padding: 15px;
+      margin:15px;
+      border-radius: 15px;
+      height: 450px;
+      background-color: #ffffff;
+      box-shadow: 4px 4px 4px rgba(0.2, 0.2, 0.2, 0.2); 
+  }
+ 
+  .cont{
+    border: 1px solid #bab7b7;
+    height: 300px;
+    margin-top: 15px;
+    border-radius: 15px;
+    padding: 10px;
+   
+  } 
+  .cont p{
+    display: flex;
+    text-align: left;
+
+  }
+  .history{
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+
+
+  

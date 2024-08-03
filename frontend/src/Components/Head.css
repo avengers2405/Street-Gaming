@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    background-color: rgb(251, 60, 60);
+    color: white;
+    height: 125px;
+}
+
+.box .headlog{
+    display: flex;
+    gap: 115px;
+}
+
+.box .headlog .arrow{
+    margin-left: 15px;
+} 
+
+.box .headlog .club{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box .para{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.box .para .p3{
+    margin-top: 6px;
+}
+
+.box .para .p1{
+    font-weight: bold;
+}
+
+.box .para .p2{
+    font-size: 13px;
+}

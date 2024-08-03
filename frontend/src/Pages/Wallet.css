@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+
+.wallet-box {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.nav-wallet {
+  display: flex;
+  background-color: rgb(252, 87, 87);
+  color: white;
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+  font-size: 28px;
+}
+
+.nav-wallet-heading {
+  margin-top: 10px;
+}
+
+.balance-wallet {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: rgb(252, 87, 87);
+  text-align: center;
+}
+
+.total-balance-wallet {
+  margin-top: 10px;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.wallet-count {
+  display: flex;
+  color: white;
+  background-color: rgb(252, 87, 87);
+  height: 100px;
+}
+
+.wallet-count-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  text-align: center;
+}
+
+.wallet-count-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  text-align: center;
+}
+
+.wallet-count-1-1 {
+  margin-top: 14px;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.wallet-count-1-space {
+  margin-bottom: 28px;
+}
+
+.next-step {
+  background-color: white;
+  border-radius: 12px;
+  margin-top: 10px;
+  width: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: -15px;
+}
+
+.next-step-first {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.next-step-deposit {
+    width: 50%;
+}
+
+.next-step-p {
+    margin-top: 5px;
+}
+
+.next-step-btn {
+    margin-top: 15px;
+    background-color: rgb(252, 87, 87);
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.next-step-fields {
+    display: flex;
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.next-step-field1 {
+    width: 50px;
+    padding: 3px;
+    margin-right: 30px;
+}
+
+.container-last {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.last-field {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 20px; /* Gap between items */
+}
+
+.last-field1 {
+    /* border: 1px solid black; */
+    padding: 10px;
+    text-align: center;
+    width: 70px;
+    font-size: 14px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+

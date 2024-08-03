@@ -1,0 +1,200 @@
+.carousel-container {
+    width: 500px; /* Set a maximum width for the carousel container */
+    margin: 0 auto;
+    background-color: white;
+     /* Center the carousel container */
+  }
+
+  .carousel {
+    max-width: 500px; 
+    margin-top: 100px;
+    margin-bottom: 25px;
+    margin-left: 35px;/* Ensure the carousel takes the full width of its container */
+  }
+  .slick-prev,
+.slick-next {
+  display: none !important;
+}
+  .carousel img {
+    max-width: 100%; /* Ensure images within the carousel are responsive */
+    height: 200px; /* Maintain aspect ratio of images */
+    width: 440px; /* Set the width of images to 100% */
+    max-height: 300px; /* Set a maximum height for the images */
+    object-fit: cover;
+  }
+  
+/* Add these styles to your existing Home.css or adjust as needed */
+.message-box-icon-container {
+    position: relative;
+    margin-right: 20px;
+  }
+  
+ 
+  .message-box-icon {
+    font-size: 24px;
+    color: rgb(238, 110, 110);
+    display: flex;
+    justify-content:right;
+    align-items: right; /* Adjust the size as needed */
+  }
+ 
+  .notification-badge {
+    position: absolute;
+    top: -5px;
+    right: -1px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 0.5rem;
+  }
+  
+  
+  
+  
+  
+  
+  .notification-icon-container {
+    position: relative;
+  }
+  
+  .notification-icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .notification-badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+  }
+
+/* Add these styles to your existing CSS file or adjust as needed */
+
+.scrollable-container::-webkit-scrollbar {
+    display: none;
+  }
+
+
+
+  
+  
+  .navbar-items{
+    
+    
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
+    position: fixed;
+    color:#e83b3b;
+    font-weight: bolder;
+    font-size: 30px;
+    font-style: italic;
+    width: 500px;
+    height: 70px;
+    
+    background-color: rgb(255, 255, 255);
+  }
+  .boxes-container {
+    display:flex;
+    flex-direction: column;
+    height: 800px;
+    margin-left: 25px;
+  }
+  
+  .box {
+    background: linear-gradient(to bottom, #ffd0d0, #fbf6f6);
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+    color: black;
+    border-radius: 5px;
+    font-size: 16px;
+    width:100px;
+    font-weight: 500;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    height: 110px;
+  }
+  .box1 {
+    background: linear-gradient(to bottom, #f99797, #f74848);
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 5px;
+    background-color: #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width:100px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+    height: 120px;
+  }
+  
+  .rectangular-boxes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 30px;
+  }
+  
+  .rectangular-box {
+    width: 90%;
+    margin: 0px;
+    padding: 10px;
+    color: white;
+    font-size: 23px;
+    font-style: italic;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    font-weight: bolder;
+    border-radius: 15px;
+    font-size: 19px;
+    height:150px;
+    background: linear-gradient(to bottom, #fd5b5b, #f4a0a0);
+    border: 1px solid #ed8383;
+    
+  }
+  .rectangular-box p{
+    font-size: 14px;
+    font-weight: 1px;
+    font-style: italic;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+  .rectangular-box1 {
+    width: 80%;
+    height: 5%;
+    margin: 5px;
+    padding: 10px;
+    
+    background: white;
+    border: 1px solid #e83b3b;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: rgb(252, 107, 107);
+    font-size: 16px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);    
+  }
+
+  @media (max-width: 480px) {
+    .navbar-items {
+      font-size: 20px; /* Decrease font size for smaller screens */
+      padding: 5px 10px; /* Adjust padding for smaller screens */
+    }
+    
+    .message-box-icon {
+      font-size: 20px; /* Adjust icon size for smaller screens */
+    }
+  }

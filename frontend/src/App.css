@@ -1,0 +1,17 @@
+.userid{
+  background: #ff9495;
+}
+
+.bodybgcolor{
+  background: #9195a3;
+}
+
+.mainbgcolor{
+  background: #666;
+}
+
+.grad {
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0.7),rgba(255, 0, 0, 0.4) );
+  height: 200px;
+}
+
